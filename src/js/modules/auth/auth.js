@@ -1,12 +1,7 @@
-import Vue from 'vue';
-
 export function Auth(options = {}) {
 	Vue.auth = {
 
-	    storagePrefix: options.storagePrefix || '_auth.',
-	    redirectType: options.redirectType || 'router',
-	    authPath: options.authPath || '/login',
-	    userData: undefined,
+	    storagePrefix: LOCAL_STORAGE_PREFIX,
 
 	    getStorageKey(part) {
 

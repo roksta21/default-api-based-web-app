@@ -1,0 +1,13 @@
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Toastr
+@import "node_modules/toastr/toastr";
+
+// Font-awesome
+@import "~font-awesome/scss/font-awesome";
+
+// Theme
+@import "theme";
